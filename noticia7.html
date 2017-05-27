@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>uhtel NEWS</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <div class="flotante">
+<ul>
+            <li><a href="https://www.facebook.com" target="_blank">
+            <img src="Imagenes/facebook.png" alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://twitter.com" target="_blank">
+            <img src="Imagenes/twitter.png"  alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://instagram.com/" target="_blank">
+            <img src="Imagenes/instagram.png"  alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://youtube.com/" target="_blank">
+            <img src="Imagenes/youtube.png"  alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://plus.google.com" target="_blank">
+            <img src="Imagenes/Google.png"  alt="Elemento no disponible temporalmente"/></a></li>
+</ul>
+</div>
+<body>
+        <header>
+        <h1><a href="index.html"><img src="Imagenes/banner.png"/></a></h1>
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Categorías</a>
+					<ul>
+						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="eventos.html">Eventos</a></li>
+					</ul>
+				</li>
+				<li><a href="">Quienes somos</a>
+					<ul>
+						<li><a href="empresa.html">Empresa</a></li>
+						<li><a href="ubicacion.html">Donde encontrarnos</a></li>
+					</ul>
+				</li>
+				<li><a href="formulario.html">Formulario</a></li>
+			</ul>
+  
+        </header>
+        <div class="noticia">
+        <h1>Google Earth se lanza a las guías interactivas para recorrer el planeta.</h1>
+        <h3>Desde la nueva versión del programa se podrán ver sitios como el Parque Nacional Gombe en Tanzania o el Himalaya de una forma distinta.</h3>
+        <img src="Imagenes/Gearth.jpg" />
+        <p>Más práctico y con más funciones. Así es la nueva versión de <strong>Google Earth</strong>, el programa informático que muestra el planeta de una manera virtual y visualizar múltiples cartografías. Entre sus novedades destaca la incorporación de guías interactivas de lugares concretos o búsquedas destinadas a explorar y descubrir nuevos enclaves.</p>
+
+<p>De esta forma, los usuarios podrán recorrer el planeta de una manera sorprendente gracias a la nueva función, Voyager, que se trata de una biblioteca con más de cincuenta historias interactivas creadas en colaboración con historiadores, científicos y organizaciones sin ánimo de lucro que permiten aprender sobre lugares, su cultura y la vida silvestre. <strong>Se podrán ver sitios como el Parque Nacional Gombe en Tanzania, la Isla Pemba en la costa Swahili o el Himalaya.</strong></p>
+
+<p>La nueva versión también añade la función «Voy a tener suerte», que cuenta con 20.000 lugares que el usuario puede descubrir y explorar de forma aleatoria. Ofrece tarjetas con información sobre el lugar, donde se pueden encontrar datos históricos y también imágenes. </p>
+
+<p>El gigante de internet, asimismo, ha introducido un nuevo botón 3D <strong>que permite ver cualquier lugar desde cualquier ángulo</strong>, y ofrece la posibilidad de compartirlo en forma de postal. Así, una vez que el usuario «aterriza» en un punto de interés podrá abrir una tarjeta de información y aprender la historia y hechos sobre ese lugar, así como ver más imágenes como la Ciudad de las Artes y las Ciencias, en Valencia.</p>
+
+<p>Estas novedades están encaminadas a «dar más opciones a la hora de observar el mundo y aprender sobre él», señala en un <a href="https://espana.googleblog.com/2017/04/bienvenidos-al-nuevo-google-earth.html" target="_blank">comunicado</a> el gerente de Producto de Google Earth, <strong>Gopal Shah</strong>, así como a «ayudar a abrir la mente a través de nuevas historias y perspectivas», con un viaje que se inicia desde casa. «Nuestra casa no es solo la manera que tenemos de entender nuestro lugar en el mundo, sino también es la forma de conectarnos con aquello que es más grande que nosotros mismos», añade.</p>
+
+<p>La nueva versión de Google Earth está disponible en Chrome, y en los próximos días llegará a Android. La compañía tiene planes para hacer llegar las novedades a iOS y a otros navegadores en un futuro.</p>      
+        </div>
+                <aside>
+        <a href="http://www.20minutos.es/tecnologia" target="_blank"><img class="logos" src="Imagenes/20min.png"/></a>
+        <a href="http://tecnologia.elpais.com" target="_blank"><img class="logos" src="Imagenes/pais.png"/></a>
+        <a href="http://www.elmundo.es/tecnologia.html" target="_blank"><img class="logos" src="Imagenes/mundo.png"/></a>
+
+        
+        </aside>
+        
+        <footer> 
+        	<ul>
+           		<li><a href="copyright.html">Copyright</a></li>
+				<li><a href="aviso.html">Aviso Legal</a></li>
+                <li><a href="privacidad.html">Privacidad</a></li>
+                <li><a href="http://jesusfdez.esy.es/">Nuestro redactor</a></li>
+            </ul>
+        </footer>
+        
+
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("gif");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000); // Change image every 9 seconds
+} 
+
+</script>    
+    </body>
+</html>
+
+

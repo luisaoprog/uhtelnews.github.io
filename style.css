@@ -1,0 +1,95 @@
+* {margin:0; padding:0; font-family:Arial; }
+body{ width:1000px; margin:0 auto; background:url(Imagenes/fondo.jpg); text-align:justify;  }
+header { height:70px; font-size:24px;
+    color: white;
+	width:100%;
+}
+
+header h1 { text-align:center; background-color:black;}
+
+ul {list-style:none;z-index:2;
+			}
+			.nav > li {
+				float:left;
+				width:25%;
+				text-align:center;
+				
+			}
+			.nav li a {
+				background:#000; 
+				color:#fff;
+				text-decoration:none;
+				text-align:center;
+				display:block;
+				padding:18px 0;
+				font-weight:bold;
+			}
+			.nav li a:hover {
+				background:#434343; 
+			}
+				
+			.nav li ul {
+				position:absolute;		
+				display:none;
+				width:17.5%;
+			}
+			.nav li:hover > ul {
+				display:block;
+			}
+
+
+div.flotante { position:fixed; top: 120px; left:0; z-index:2;}
+	div.flotante ul li { list-style:none; margin:1px 0;}
+	div.flotante ul li a img {width:60px;}
+	div.flotante ul li a img:hover {width:100px; transition: 1s;}
+div.gallery {width:74.8%; height:300px; float:left; border-right:0.2% solid black; }
+	div.gallery img.gif {width:100%; height:100%; }
+div.noticia {width:74.8%; height:800px; float:left; border-right:0.2% solid black; background:white; overflow:scroll;}
+div.noticia h3 {padding:10px;}
+div.noticia h1 {font-weight:bold; padding:15px;}
+div.noticia img {width:80%; margin:0 auto; display:block;}
+div.noticia p {padding:10px;}
+	
+section {font-size:18px;height:500px; width:74.8%; float:left; background:white; opacity:0.9; border-right:0.2% solid black; overflow:scroll;z-index:1;}
+section div.parrafito {height:125px; border-bottom:2px solid black; }
+section div.parrafito h1 {padding:10px 20px 0 20px; color:red; font-size:22px;}
+section div.parrafito h1 a{text-decoration:none;}
+section div.parrafito h1 a:link {
+    color: blue;
+}
+
+section div.parrafito h1 a:visited {
+    color: blue;
+}
+
+
+section div.parrafito p {padding:0 20px;}
+aside {font-size:18px;height:800px; width:25%; float:right; background:white; opacity:0.9;}
+aside img.logos {
+	width: 200px;
+	display: block;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;
+}
+footer{width:100%; 		height:70px;  	 float:left; font-size:18px;}
+			footer ul li {
+				float:left;
+				width:25%;
+				text-align:center;
+				display:inline;
+			}
+			
+			footer li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				text-align:center;
+				display:block;
+				padding:18px 0;
+			}

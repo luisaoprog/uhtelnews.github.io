@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>uhtel NEWS</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <div class="flotante">
+<ul>
+            <li><a href="https://www.facebook.com" target="_blank">
+            <img src="Imagenes/facebook.png" alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://twitter.com" target="_blank">
+            <img src="Imagenes/twitter.png"  alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://instagram.com/" target="_blank">
+            <img src="Imagenes/instagram.png"  alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://youtube.com/" target="_blank">
+            <img src="Imagenes/youtube.png"  alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://plus.google.com" target="_blank">
+            <img src="Imagenes/Google.png"  alt="Elemento no disponible temporalmente"/></a></li>
+</ul>
+</div>
+<body>
+        <header>
+        <h1><a href="index.html"><img src="Imagenes/banner.png"/></a></h1>
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Categorías</a>
+					<ul>
+						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="eventos.html">Eventos</a></li>
+					</ul>
+				</li>
+				<li><a href="">Quienes somos</a>
+					<ul>
+						<li><a href="empresa.html">Empresa</a></li>
+						<li><a href="ubicacion.html">Donde encontrarnos</a></li>
+					</ul>
+				</li>
+				<li><a href="formulario.html">Formulario</a></li>
+			</ul>
+
+            
+            
+        </header>
+        <div class="noticia">
+        <h1>La ‘app’ que te guía para salir de bares</h1>
+        <h3>La web y aplicación 'Cerveza más Tapa por Madrid' guía al usuario por los mejores locales para beber y tapear en la capital</h3>
+        <img src="Imagenes/bar.jpg" />
+        <p>Cuando Sergio y a sus amigos sale de tapas por Madrid tienen, además de comer y beber bien, otra misión: tomar nota de cada bar al que acuden y de lo que allí se sirve para luego contarlo en su página web <a href="http://www.cervezamastapapormadrid.com/" target="_blank"> Cerveza Más Tapa por Madrid</a>.“Todo surgió hace unos años, cuando parecía que la calidad y la cantidad de las tapas que se servían en los bares de la capital estaban decayendo”, cuenta Sergio Rojo, uno de los impulsores de esta idea, que arrancó en 2011 y que actualmente reseña unos 150 establecimientos y anima a descubrir Madrid de bar en bar. </p>
+
+
+<p>Esta plataforma, disponible, desde el año pasado, también en aplicación móvil, ofrece un listado de establecimientos con información sobre la cerveza –marca y tipo de vaso en el que se sirve–, su precio y la tapa que la acompaña, de la cuál se valora tanto la cantidad como la calidad. “Rastreamos toda la ciudad, no solo el centro", dice Rojo, "recorremos los diferentes distritos para ver si hay nuevas aperturas. A veces, los propios usuarios nos piden que vayamos a un bar determinado para que lo reseñemos”. Una vez en el local, el equipo realiza un pequeño test de incógnito: "Si superan nuestros mínimos de buen ambiente, precio, calidad y cantidad les incluimos en la web y en la aplicación”, apunta Rojo. Cerveza más tapa por Madrid cuenta con una función de localización que permite encontrar establecimientos por barrios, paradas de metro o proximidad al lugar donde se encuentra el usuario.</p>
+
+<p>Rojo y sus compañeros creen que también es importante conocer la valoración de la gente. Por ello, animan a los usuarios de su aplicación a que puntúen –de uno a cinco– los locales que visitan. Gracias a la fama de su web, en los últimos años han organizado eventos como Tapa Solidaria, apadrinado por el cocinero Juan Pozuelo, o la Ruta de Tapas por Aluche (que concluye el domingo).</p>
+
+<p>Además, la web ofrece también noticias relacionadas con la gastronomía madrileña y una sección dedicada a las cervezas artesanas. “La producción y venta de este tipo de cervezas ha crecido mucho en Madrid”, apunta Rojo, "cada vez hay más gente que busca establecimientos donde se sirvan; por eso acabamos de añadir un localizador específico de este tipo de bebidas con información sobre marcas y precios”.</p>
+
+        
+        
+        </div>
+                <aside>
+        <a href="http://www.20minutos.es/tecnologia" target="_blank"><img class="logos" src="Imagenes/20min.png"/></a>
+        <a href="http://tecnologia.elpais.com" target="_blank"><img class="logos" src="Imagenes/pais.png"/></a>
+        <a href="http://www.elmundo.es/tecnologia.html" target="_blank"><img class="logos" src="Imagenes/mundo.png"/></a>
+
+        
+        </aside>
+        
+        <footer> 
+        	<ul>
+           		<li><a href="copyright.html">Copyright</a></li>
+				<li><a href="aviso.html">Aviso Legal</a></li>
+                <li><a href="privacidad.html">Privacidad</a></li>
+                <li><a href="http://jesusfdez.esy.es/">Nuestro redactor</a></li>
+            </ul>
+        </footer>
+        
+
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("gif");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000); // Change image every 9 seconds
+} 
+
+</script>    
+    </body>
+</html>
+

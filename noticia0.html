@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>uhtel NEWS</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <div class="flotante">
+<ul>
+            <li><a href="https://www.facebook.com" target="_blank">
+            <img src="Imagenes/facebook.png" alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://twitter.com" target="_blank">
+            <img src="Imagenes/twitter.png"  alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://instagram.com/" target="_blank">
+            <img src="Imagenes/instagram.png"  alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://youtube.com/" target="_blank">
+            <img src="Imagenes/youtube.png"  alt="Elemento no disponible temporalmente"/></a></li>
+            
+            <li><a href="https://plus.google.com" target="_blank">
+            <img src="Imagenes/Google.png"  alt="Elemento no disponible temporalmente"/></a></li>
+</ul>
+</div>
+<body>
+        <header>
+        <h1><a href="index.html"><img src="Imagenes/banner.png"/></a></h1>
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Categorías</a>
+					<ul>
+						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="eventos.html">Eventos</a></li>
+					</ul>
+				</li>
+				<li><a href="">Quienes somos</a>
+					<ul>
+						<li><a href="empresa.html">Empresa</a></li>
+						<li><a href="ubicacion.html">Donde encontrarnos</a></li>
+					</ul>
+				</li>
+				<li><a href="formulario.html">Formulario</a></li>
+			</ul>
+
+            
+            
+        </header>
+		<section>
+        <div class="formulario">
+		<h3>¡Únete a la causa!</h3>
+        <img src="Imagenes/unclepatillas.jpg" />
+        <p>Si tu pasión es la informática y quieres colaborar con nosotros compartiendo información regístrate en este formulario. </p>
+		<form action="prueba.php" method="post">
+			<fieldset><legend>Información de contacto</legend>
+				
+                    	<div class="entradas"><label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" maxlength="50"  pattern="[A-Z]*[a-z]*" title="Solo letras" required />
+                    	</div>
+                        <div class="entradas">
+                        <label>Correo:</label>
+                        <input type="email" name="correo" placeholder="Introducir email" required/></div>
+                    	<div class="entradas">
+                        <label for="intereses">Intereses:</label>
+                        <input type="radio" name="Actualidad" value="Actualidad"/>Actualidad
+						<input type="radio" name="Apple" />Apple
+						<input type="radio" name="Linux" />Linux
+						<input type="radio" name="Windows" />Windows
+						<input type="radio" name="Base de datos" />Base de datos
+						<input type="radio" name="Productos Gaming" />Productos Gaming
+						<input type="radio" name="Ofertas de trabajo" />Ofertas de trabajo
+						<input type="radio" name="Tecnología móvil" />Tecnología móvil
+                  		</div>
+                        <div class="entradas">
+                  		<label for="provincia">Provincia:</label>
+                        <select id="provincia" name="provincia">
+                                <option value="" >Elegir provincia</option>
+                            <optgroup label="Andalucía">
+                                <option value="cor" >Córdoba</option>
+                                <option value="gra" >Granada</option>
+                                <option value="hlv" >Huelva</option>
+                                <option value="jae" >Jaén</option>
+                                <option value="mlg" >Málaga</option>
+                                <option value="alm" >Almería</option>
+                                <option value="cdz" >Cádiz</option>
+                                <option value="sev" >Sevilla</option>
+                            </optgroup>
+                            <optgroup label="Aragón">
+                                <option value="hsc" >Huesca</option>
+                                <option value="ter" >Teruel</option>
+                                <option value="zar" >Zaragoza</option>
+                            </optgroup>
+                            <optgroup label="Asturias">
+                                <option value="ast" >Asturias</option>
+                            </optgroup>
+                            <optgroup label="Cantabria">
+                                <option value="cnt" >Cantabria</option>
+                            </optgroup>
+                            <optgroup label="Castilla La Mancha">
+                                <option value="alb" >Albacete</option>
+                                <option value="crl" >Ciudad Real</option>
+                                <option value="cue" >Cuenca</option>
+                                <option value="gua" >Guadalajara</option>
+                                <option value="tol" >Toledo</option>
+                            </optgroup>
+                            <optgroup label="Castilla y León">
+                                <option value="avl" >Ávila</option>
+                                <option value="bur" >Burgos</option>
+                                <option value="leo" >León</option>
+                                <option value="pal" >Palencia</option>
+                                <option value="sal" >Salamanca</option>
+                                <option value="seg" >Segovia</option>
+                                <option value="sor" >Soria</option>
+                                <option value="zam" >Zamora</option>
+                            </optgroup>   
+                            <optgroup label="Cataluña">
+                                <option value="bar" >Barcelona</option>
+                                <option value="ger" >Gerona</option>
+                                <option value="ler" >Lérida</option>
+                                <option value="tar" >Tarragona</option>
+                            </optgroup>
+                             <optgroup label="Comunidad de Madrid">
+                                <option value="mad" >Madrid</option>
+                            </optgroup>
+                            <optgroup label="Comunidad Foral de Navarra">
+                                <option value="nav" >Navarra</option>
+                            </optgroup>
+                            <optgroup label="Comunidad Valenciana">
+                                <option value="alc" >Alicante</option>
+                                <option value="cas" >Castellón</option>
+                                <option value="val" >Valencia</option>
+                            </optgroup>
+                            <optgroup label="Extremadura">
+                                <option value="bad" >Badajoz</option>
+                                <option value="cac" >Cáceres</option>
+                            </optgroup>
+                            <optgroup label="Galicia">
+                                <option value="cor" >Coruña</option>
+                                <option value="lug" >Lugo</option>
+                                <option value="ore" >Orense</option>
+                                <option value="pon" >Pontevedra</option>
+                            </optgroup>
+                            <optgroup label="Islas Baleares">
+                                <option value="bal" >Baleares</option>
+                            </optgroup>
+                            <optgroup label="Islas Canarias">
+                                <option value="pgc" >Las Palmas de Gran Canaria</option>
+                                <option value="sct" >Sta. Cruz de Tenerife</option>
+                            </optgroup>
+                            <optgroup label="La Rioja">
+                                <option value="lrj" >La Rioja</option>
+                            </optgroup>
+                            <optgroup label="Murcia">
+                                <option value="mur" >Murcia</option>
+                            </optgroup>
+                            <optgroup label="País Vasco">
+                                <option value="alv" >Álava</option>
+                                <option value="gui" >Guipúzcoa</option>
+                                <option value="viz" >Vizcaya</option>
+                            </optgroup>
+                            </select>           
+ 							<div>
+                        <div class="entradas">
+                        <label for="comentarios" >Comentarios:</label>
+                        <textarea rows="4" cols="25" id="comentarios" name="Comentario" placeholder="Si desea añadir algo más hágalo aquí..."></textarea>
+                    	</div>
+                        <div class="boton">
+                        <input type="submit" value="Enviar"/><br/>
+                        <input type="reset" value="Borrar"/>
+                        </div>
+						</section>
+            </fieldset>
+            </form>
+
+		
+        
+        </div>
+                <aside>
+        <a href="http://www.20minutos.es/tecnologia" target="_blank"><img class="logos" src="Imagenes/20min.png"/></a>
+        <a href="http://tecnologia.elpais.com" target="_blank"><img class="logos" src="Imagenes/pais.png"/></a>
+        <a href="http://www.elmundo.es/tecnologia.html" target="_blank"><img class="logos" src="Imagenes/mundo.png"/></a>
+
+        
+        </aside>
+        
+        <footer> 
+        	<ul>
+           		<li><a href="copyright.html">Copyright</a></li>
+				<li><a href="aviso.html">Aviso Legal</a></li>
+                <li><a href="privacidad.html">Privacidad</a></li>
+                <li><a href="http://jesusfdez.esy.es/">Nuestro redactor</a></li>
+            </ul>
+        </footer>
+        
+
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("gif");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000); // Change image every 9 seconds
+} 
+
+</script>    
+    </body>
+</html>
+
