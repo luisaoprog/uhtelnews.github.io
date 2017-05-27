@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>uhtel NEWS</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		</head>
+
+		<body>
+			<header>
+				<h1><a href="index.html"><img src="Imagenes/banner.png"/></a></h1>
+
+				<ul class="nav">
+					<li><a href="index.html">Inicio</a></li>
+					<li><p>Categorías</p>
+						<ul>
+							<li><a href="noticias.html">Noticias</a></li>
+							<li><a href="eventos.html">Eventos</a></li>
+						</ul>
+					</li>
+					<li><p>Quienes somos</p>
+						<ul>
+							<li><a href="empresa.html">Empresa</a></li>
+							<li><a href="ubicacion.html">Donde encontrarnos</a></li>
+						</ul>
+					</li>
+					<li><a href="formulario.html">Formulario</a></li>
+				</ul> 
+			</header>
+			<aside>
+				<h2>Webs Colaboradoras</h2>
+				<a href="http://www.20minutos.es/tecnologia" target="_blank"><img class="logos" src="Imagenes/20min.png"/></a>
+				<a href="http://tecnologia.elpais.com" target="_blank"><img class="logos" src="Imagenes/pais.png"/></a>
+				<a href="http://www.elmundo.es/tecnologia.html" target="_blank"><img class="logos" src="Imagenes/mundo.png"/></a>
+
+
+			</aside>
+			<section class="plantilla">
+				<div>
+					<h1>Nuestra Historia</h1>
+					<ul>
+						<li>2006 - Nace con mucha ilusión Uhtel NEWS, empresa creada por alumnos de Grupo Studium, 
+        con el fin de atender las nuevas necesidades del sector de la información</li>
+						<li>2007 - Creamos una plantilla sólida de columnistas especializados en el sector de la informática</li>
+						<li>2009 - Nuestros web es reconocida y nuestra información certificada por los fabricantes VMWare, IBM, Lenovo, Microsoft, Cisco y Toshiba</li>
+						<li>2011 - Nuestras necesidades de crecimiento, nos obligan a adquirir una nuevas oficinas más grandes y funcionales</li>
+						<li>2015 - Durante los dificiles años de crisis económica, conseguimos consolidarnos y mantener nuestra plantilla</li>
+						<li>2017 - A día de hoy somos una referencia a nivel nacional en tecnología e información</li>
+					</ul>
+				</div>
+				<div>
+					<h1>Sobre Nosotros</h1>
+					<p><i>"Nuestro principal valor, es el que aporta el capital humano que desarrolla su trabajo en nuestra empresa"</i></p>
+
+					<p>KUIPER Informática es fundada en el año 2005 con el objetivo principal de ser proveedor de soluciones globales y valor añadido en el campo de la tecnología de la información y los sistemas informáticos.</p>
+
+					<p>Actualmente contamos con un equipo humano formado por profesionales y técnicos, con una dilatada experiencia en el sector, y certificados por los principales fabricantes y desarrolladores. Queremos brindarles nuestra experiencia y nuestros conocimientos para satisfacer todas las necesidades actuales y futuras de su empresa, relacionadas con la tecnología, los servicios informáticos, las comunicaciones, la seguridad de los sistemas y la continuidad de su negocio.</p>
+
+					<p>Nos gustaría ayudarles a tomar las mejores decisiones a nivel informático para que su compañía pueda afrontar los cambios sin quedar estancada o desprotegida, adaptándonos a las circunstancias individuales de cada uno de nuestros clientes y analizando la mejor solución para que su inversión sea rentable.</p>
+				</div>
+
+
+			</section>
+			<footer> 
+
+				<p><a href="aviso.html">Aviso legal</a></p>
+				<p><a href="privacidad.html">Privacidad</a></p>
+				<p>Copyright © 2017</p>
+				<div id="flotante">
+
+					<ul>
+						<li><a href="https://www.facebook.com/" target="_blank">
+								<img src="Imagenes/facebook.png" alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://twitter.com/" target="_blank">
+								<img src="Imagenes/twitter.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://instagram.com/" target="_blank">
+								<img src="Imagenes/instagram.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://youtube.com/" target="_blank">
+								<img src="Imagenes/youtube.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://plus.google.com" target="_blank">
+								<img src="Imagenes/google.png"  alt="Elemento no disponible temporalmente"/></a></li>
+					</ul>
+				</div>
+			</footer>
+
+
+			<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("gif");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000); // Change image every 9 seconds
+} 
+
+				</script>    
+			</body>
+		</html>
+
+		

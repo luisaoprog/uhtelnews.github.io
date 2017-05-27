@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>uhtel NEWS</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		</head>
+
+		<body>
+			<header>
+				<h1><a href="index.html"><img src="Imagenes/banner.png"/></a></h1>
+				<ul class="nav">
+					<li><a href="index.html">Inicio</a></li>
+					<li><p>Categorías</p>
+						<ul>
+							<li><a href="noticias.html">Noticias</a></li>
+							<li><a href="eventos.html">Eventos</a></li>
+						</ul>
+					</li>
+					<li><p>Quienes somos</p>
+						<ul>
+							<li><a href="empresa.html">Empresa</a></li>
+							<li><a href="ubicacion.html">Donde encontrarnos</a></li>
+						</ul>
+					</li>
+					<li><a href="formulario.html">Formulario</a></li>
+				</ul>
+
+			</header>
+			<div class="noticia">
+				<h1>Programador, Tuenti te está buscando</h1>
+				<h3>La séptima edición del concurso para programadores Tuenti Challenge ya está en marcha. Los ganadores tendrán la posibilidad de trabajar en la compañía.</h3>
+				<img src="Imagenes/tuenti.jpg" />
+				<p>¿Eres un programador a la caza y captura de empleo? Tuenti acaba de abrir una nueva edición de su <strong><a href="https://contest.tuenti.net/Info/about" target="_blank">Tuenti Challenge</a></strong> con el que busca identificar y captar talento.</p>
+
+
+				<p>En esta séptima edición anual del concurso la compañía pondrá el foco en programación algorítmica, reversing y seguridad.  <strong>El concurso consta de dos fases </strong> y desde Tuenti recalcan que no sólo se trata de ser el más rápido en resolver los problemas, la calidad también cuenta. La compañía tendrá en cuenta cuestiones como el código o los algoritmos que se usen.</p>
+
+				<p> <strong>La primera fase </strong> del concurso es online y se extenderá  <strong>del 26 de abril al 3 de mayo </strong>. En esta etapa los participantes deberán resolver 15 problemas a lo largo de la semana. Los 30 que más retos resuelvan serán los ganadores de esta fase. </strong></p>
+
+			<p>A continuación el equipo de ingenieros de Tuenti analizará las respuestas de estos 30 ganadores usando métricas automáticas y de calidad como la claridad del código o su calidad, pero nunca el lenguaje de programación utilizado.  <strong>Los 10 mejores llegarán a la final </strong>.</p>
+
+			<p> <strong>La segunda fase se desarrollará el 25 de mayo </strong> en las oficinas de Tuenti en Madrid. Los 10 finalistas pasarán un día trabajando con el equipo de la compañía y podrán participar en talleres formativos. Ahí los trabajadores evaluarán sus cualidades y, como ya ha ocurrido anteriormente, pueden incluso terminar recibiendo una oferta laboral.</p>
+
+			<p>Además, los 30 ganadores de la primera fase recibirán un premio en forma de camiseta del Tuenti Challenge y ventajas en Tuenti. Por su parte, el ganador del concurso se llevará un iPhone 7, el segundo una Nintendo Switch y el tercero un Parrot AR Drone 2.0. El resto de finalistas obtendrán un Chromecast ultra.
+El plazo para inscribirse finaliza el 3 de mayo, pero cuanto antes lo hagas más problemas podrás resolver. Más de 12.000 personas han participado ya en las anteriores ediciones.</p>
+
+
+		</div>
+		<aside>
+			<h2>Webs Colaboradoras</h2>
+			<a href="http://www.20minutos.es/tecnologia" target="_blank"><img class="logos" src="Imagenes/20min.png"/></a>
+			<a href="http://tecnologia.elpais.com" target="_blank"><img class="logos" src="Imagenes/pais.png"/></a>
+			<a href="http://www.elmundo.es/tecnologia.html" target="_blank"><img class="logos" src="Imagenes/mundo.png"/></a>
+
+
+		</aside>
+
+		<footer> 
+
+			<p><a href="aviso.html">Aviso legal</a></p>
+			<p><a href="privacidad.html">Privacidad</a></p>
+			<p>Copyright © 2017</p>
+			<div id="flotante">
+
+				<ul>
+					<li><a href="https://www.facebook.com/" target="_blank">
+							<img src="Imagenes/facebook.png" alt="Elemento no disponible temporalmente"/></a></li>
+
+					<li><a href="https://twitter.com/" target="_blank">
+							<img src="Imagenes/twitter.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+					<li><a href="https://instagram.com/" target="_blank">
+							<img src="Imagenes/instagram.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+					<li><a href="https://youtube.com/" target="_blank">
+							<img src="Imagenes/youtube.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+					<li><a href="https://plus.google.com" target="_blank">
+							<img src="Imagenes/google.png"  alt="Elemento no disponible temporalmente"/></a></li>
+				</ul>
+			</div>
+		</footer>
+
+
+		<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("gif");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000); // Change image every 9 seconds
+} 
+
+			</script>    
+		</body>
+	</html>

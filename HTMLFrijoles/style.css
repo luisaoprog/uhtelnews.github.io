@@ -1,0 +1,101 @@
+* {margin:0; padding:0; font-family:Arial; }
+body{ width:1000px; margin:0 auto; background:url(Imagenes/fondo.jpg); text-align:justify;  }
+header { height:70px; font-size:24px;
+    color: white;
+	width:100%;
+}
+
+header h1 { text-align:center; background-color:black;}
+
+ul {list-style:none;z-index:2;
+			}
+			
+			.nav > li {
+				float:left;
+				width:250px;
+				text-align:center;	
+				
+		
+			}
+			.nav li p{
+				padding:18px 0;		
+				background:#000; 
+				font-weight:bold;
+			}
+			
+			.nav li a {
+				background:#000; 
+				color:#fff;
+				text-decoration:none;
+				text-align:center;
+				display:block;
+				padding:18px 0;
+				font-weight:bold;
+			}
+
+			.nav li a:hover {
+				background:#434343; 
+			}
+			.nav li ul {
+				position:absolute;		
+				display:none;
+				width:250px;
+			}
+			.nav li:hover > ul {
+				display:block;
+			}
+	
+	div.gallery {width:74.8%; height:300px; float:left; border-right:0.2% solid black; }
+	div.gallery img.gif {width:100%; height:100%; }
+	div.noticia {width:74.8%; height:800px; float:left; border-right:0.2% solid black; background:white; overflow:scroll;}
+	
+	div.noticia h3 {padding:10px;}
+	div.noticia h1 {font-weight:bold; padding:15px;}
+	div.noticia img {width:80%; margin:0 auto; display:block;}
+	div.noticia p {padding:10px;}
+	
+section {font-size:18px;height:500px; width:74.8%; float:left; background:white; opacity:0.9; border-right:0.2% solid black; overflow:scroll;z-index:1;}
+section.plantilla{height:800px; overflow:auto;}
+section div.parrafito {height:125px; border-bottom:2px solid black; }
+section div.parrafito h1 {padding:10px 20px 0 20px; color:red; font-size:22px;}
+section div.parrafito h1 a{text-decoration:none;}
+section div.parrafito h1 a:link {
+    color: blue;}
+section div.parrafito h1 a:visited {
+    color: blue;}
+section div.parrafito p {padding:0 20px;}
+
+aside {font-size:18px;height:800px; width:25%; float:right; background:white; opacity:0.9;}
+aside h2{text-shadow: 0.1em 0.1em #00FFFF; text-align:center; padding:10px;}
+aside img.logos {
+	width: 200px;
+	display: block;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 18px;
+	padding-right: 0;
+	padding-bottom: 18px;
+	padding-left: 0;
+}
+
+footer{width:100%; 		height:70px; 	background: url(Imagenes/barrainf.png); 	 float:left;  margin-bottom:30px;}
+footer p {float:left; margin: 20px 30px 5px 40px; font-weight:bold; font-size:20px;color:white;}
+footer p a{text-decoration:none;color:white;}
+#flotante ul li { list-style:none; 	margin:18px 15px;	 display:inline;	 float:right; }
+#flotante ul li a img {width:30px;	height:30px; }
+#flotante ul li a img:hover {transform:scale(2.2); transition: 1s;}
+	
+div#recluta{margin: 15px;  text-align:center; margin:20px 0 60px 0; color:#009;}	
+			
+div#formulario{margin: 15px;  text-align:center; }
+div#formulario legend {font-weight:bold; color:#009;}
+div#formulario div.entradas{margin: 10px 0; text-align:left; }
+div#formulario div.entradas label{width: 150px; float:left; text-align:right; }
+div#formulario div.entradas input{margin-top:3px; margin-left:20px; }
+div#formulario div.entradas select {margin-top:3px; margin-left:20px;}
+div#formulario div.entradas textarea {margin-top:3px; margin-left:20px;}
+div#formulario div.boton { }
+div#formulario div.boton input { width:100px; height:50px; margin-top:40px; color:white; font-weight:bold; 
+									border-radius:30px; background:#009; border:double 5px; }	

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>uhtel NEWS</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		</head>
+
+		<body>
+			<header>
+				<h1><a href="index.html"><img src="Imagenes/banner.png"/></a></h1>
+				<ul class="nav">
+					<li><a href="index.html">Inicio</a></li>
+					<li><p>Categorias</p>
+						<ul>
+							<li><a href="noticias.html">Noticias</a></li>
+							<li><a href="eventos.html">Eventos</a></li>
+						</ul>
+					</li>
+					<li><p>Quienes somos</p>
+						<ul>
+							<li><a href="empresa.html">Empresa</a></li>
+							<li><a href="ubicacion.html">Donde encontrarnos</a></li>
+						</ul>
+					</li>
+					<li><a href="formulario.html">Formulario</a></li>
+				</ul>
+
+
+
+			</header>
+			<div class="noticia">
+				<h1>El Big Data generará 900.000 empleos en el mundo en los próximos seis años</h1>
+				<h3>Las empresas que usen estas técnicas incrementarán sobre un 8% su productividad, según las previsiones de la consultora Indra</h3>
+				<img src="Imagenes/bigdata.jpg" />
+				<p>El sector de Big Data generará unos 900.000 empleos en los próximos seis años en todo el mundo y las empresas que usen estas técnicas incrementarán sobre un 8% su productividad. </p>
+
+
+				<p>Según las previsiones de la compañía Indra con motivo de de la celebración este miércoles del foro <a href="http://bigdata-forum.com/" target="_blank">«Big Data to Action»</a>, a pesar de estas perspectiva, las empresas tienen dificultades para encontrar personal preparado en análisis de datos. </p>
+
+				<p>Esta será una de las cuestiones que se abordará en el encuentro organizado por Madrid School of Marketing (MSKM) y que incluye una feria de captación de talento, que se suma a las conferencias de expertos. En este sentido, Indra ha firmado recientemente un acuerdo con MSKM para colaborar en los procesos de formación en ámbitos como el «Big Data» y el «Business Intelligence», y así formar trabajadores altamente cualificados en estas disciplinas, ha informado la compañía en un comunicado. </p>
+
+				<p>La gerente de Big Data y Business Analytics de Minsait (unidad de Indra que da respuesta a los retos de la transformación digital), <strong>Natalia Clavero</strong>, explicará en una ponencia el impacto del aprovechamiento de los datos en el sector eléctrico con la implantación obligatoria de los contadores electrónicos inteligentes («Smart Meters»). </p>
+
+				<p>Clavero ha señalado que «el Big Data es la evolución de la Inteligencia de Negocio pero incorporando mucha más información, mucho más variada y con una gestión mucho más rápida», unas cualidades que permiten a una empresa «extraer mucho más conocimiento de su negocio a partir de sus datos».</p>
+
+				<p>La experta ha destacado la posibilidad de obtener análisis «extraordinarios de enorme valor» y ha animado a los jóvenes profesionales a elegir esta especialidad. Indra lidera el proyecto de I+D+i Transforming Transport, que cuenta con la participación de Minsait, y que pretende demostrar de «de forma tangible» cómo las cantidades masivas de datos generadas por el sector del transporte y la logística pueden ser explotadas con las <strong>últimas tecnologías de Big Data</strong>. </p>
+
+				<p>Se trata <strong>de un proyecto Horizonte 2020</strong> de la UE con un presupuesto de más de 18 millones de euros y la participación de 47 de socios de más de una docena de países. Durante el foro también habrá ponentes de empresas como <strong>ING Direct, IBM, SAS, Kone, Everis, Telefónica o Conento</strong>, que hablarán de temas como la medición de los riesgos de las marcas a través del Big Data, el fraude eléctrico o la información geolocalizada. </p>
+
+
+			</div>
+			<aside>
+				<h2>Webs Colaboradoras</h2>
+				<a href="http://www.20minutos.es/tecnologia" target="_blank"><img class="logos" src="Imagenes/20min.png"/></a>
+				<a href="http://tecnologia.elpais.com" target="_blank"><img class="logos" src="Imagenes/pais.png"/></a>
+				<a href="http://www.elmundo.es/tecnologia.html" target="_blank"><img class="logos" src="Imagenes/mundo.png"/></a>
+
+
+			</aside>
+
+			<footer> 
+
+				<p><a href="aviso.html">Aviso legal</a></p>
+				<p><a href="privacidad.html">Privacidad</a></p>
+				<p>Copyright © 2017</p>
+				<div id="flotante">
+
+					<ul>
+						<li><a href="https://www.facebook.com/" target="_blank">
+								<img src="Imagenes/facebook.png" alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://twitter.com/" target="_blank">
+								<img src="Imagenes/twitter.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://instagram.com/" target="_blank">
+								<img src="Imagenes/instagram.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://youtube.com/" target="_blank">
+								<img src="Imagenes/youtube.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://plus.google.com" target="_blank">
+								<img src="Imagenes/google.png"  alt="Elemento no disponible temporalmente"/></a></li>
+					</ul>
+				</div>
+			</footer>
+
+
+			<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("gif");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000); // Change image every 9 seconds
+} 
+
+				</script>    
+			</body>
+		</html>
+
+		

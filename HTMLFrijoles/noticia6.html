@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>uhtel NEWS</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		</head>
+
+		<body>
+			<header>
+				<h1><a href="index.html"><img src="Imagenes/banner.png"/></a></h1>
+				<ul class="nav">
+					<li><a href="index.html">Inicio</a></li>
+					<li><p>Categorias</p>
+						<ul>
+							<li><a href="noticias.html">Noticias</a></li>
+							<li><a href="eventos.html">Eventos</a></li>
+						</ul>
+					</li>
+					<li><p>Quienes somos</p>
+						<ul>
+							<li><a href="empresa.html">Empresa</a></li>
+							<li><a href="ubicacion.html">Donde encontrarnos</a></li>
+						</ul>
+					</li>
+					<li><a href="formulario.html">Formulario</a></li>
+				</ul>
+
+			</header>
+			<div class="noticia">
+				<h1>¿El inicio de la computación térmica?</h1>
+				<h3>Sidy Ndao y Mahmoud Elzouka han desarrollado un diodo térmico que podría ayudar a conseguir ordenadores capaces de utilizar el calor como fuente alternativa de energía.</h3>
+				<img src="Imagenes/termico.jpg" />
+				<p>Uno de los mayores problemas que sufren los ordenadores, y que viene ocurriendo desde la invención del primero, ha sido encontrar formas de mantenerlos fríos de manera que no se sobrecalienten hasta el punto de dejar de funcionar. En vez de combatir el calor, unos ingenieros de la Universidad de Nebraska-Lincoln en Estados Unidos <strong>han ideado una vía para adaptar la computación a él, y emplearlo como fuente de energía alternativa que permitiría computar a temperaturas ultraelevadas.</strong>
+				</p>
+
+
+				<p>El equipo de Sidy Ndao y Mahmoud Elzouka ha ideado un primer y esencial componente para esa clase de computación térmica. Se trata de un dispositivo nanométrico térmico mecánico, definible también como un diodo térmico.</p>
+
+				<p>Ndao argumenta que, si lo pensamos bien, sea lo que sea lo que hagamos con la electricidad, deberíamos también poder hacerlo con el calor, dado que ambos se parecen en muchos aspectos. “En principio, ambos transportan energía. Si controlamos el calor, podríamos usarlo para computar y evitar el problema del sobrecalentamiento”.</p>
+
+				<p>
+					<strong>El nuevo dispositivo es capaz de trabajar en temperaturas que se acercan a los 330 grados centígrados (unos 630 grados Fahrenheit)</strong>. Ndao espera que esta pieza clave de la nueva computación pueda algún día funcionar sometida a una temperatura mucho más elevada, de unos 700 grados centígrados, lo que tendría repercusiones beneficiosas en muchas industrias.</p>
+
+				<p>“Estamos creando básicamente un ordenador térmico”, resume Ndao. Según él, se podría usar en operaciones de extracción de petróleo, en investigaciones geofísicas del subsuelo profundo de la Tierra, en exploración espacial y en muchas otras aplicaciones. Permitiría realizar cálculos y procesar datos en tiempo real en ambientes en los que nunca ha podido funcionar un ordenador.</p>
+
+				<p>Aprovechando el denostado calor, una fuente de energía que ha sido despreciada en la computación desde el nacimiento de esta, el diodo térmico podría también ayudar a reducir la cantidad de energía que se derrocha.</p>
+
+				<p>Según algunas estimaciones, cerca del <strong>60 por ciento</strong> de la energía producida para el consumo en países como Estados Unidos se desperdicia en forma de calor desaprovechado. Si pudiéramos aprovechar este calor y utilizarlo como energía en ordenadores y otros aparatos electrónicos, el consumo energético disminuiría y las facturas que pagaríamos por él serían de menor cuantía.</p>
+
+				<p>El próximo paso en esta nueva y fascinante línea de investigación es aumentar la eficiencia del dispositivo y fabricar un ordenador que pueda funcionar a una temperatura más alta que la soportable por cualquiera de los de diseño convencional.</p>
+
+
+			</div>
+			<aside>
+				<h2>Webs Colaboradoras</h2>
+				<a href="http://www.20minutos.es/tecnologia" target="_blank">
+					<img class="logos" src="Imagenes/20min.png"/>
+				</a>
+				<a href="http://tecnologia.elpais.com" target="_blank">
+					<img class="logos" src="Imagenes/pais.png"/>
+				</a>
+				<a href="http://www.elmundo.es/tecnologia.html" target="_blank">
+					<img class="logos" src="Imagenes/mundo.png"/>
+				</a>
+
+
+			</aside>
+
+			<footer> 
+
+				<p><a href="aviso.html">Aviso legal</a></p>
+				<p><a href="privacidad.html">Privacidad</a></p>
+				<p>Copyright © 2017</p>
+				<div id="flotante">
+
+					<ul>
+						<li><a href="https://www.facebook.com/" target="_blank">
+								<img src="Imagenes/facebook.png" alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://twitter.com/" target="_blank">
+								<img src="Imagenes/twitter.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://instagram.com/" target="_blank">
+								<img src="Imagenes/instagram.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://youtube.com/" target="_blank">
+								<img src="Imagenes/youtube.png"  alt="Elemento no disponible temporalmente"/></a></li>
+
+						<li><a href="https://plus.google.com" target="_blank">
+								<img src="Imagenes/google.png"  alt="Elemento no disponible temporalmente"/></a></li>
+					</ul>
+				</div>
+			</footer>
+
+
+			<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+				var i;
+				var x = document.getElementsByClassName("gif");
+				for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";  
+						}
+						myIndex++;
+						if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 7000); // Change image every 9 seconds
+					} 
+
+				</script>    
+			</body>
+		</html>
+
+		
